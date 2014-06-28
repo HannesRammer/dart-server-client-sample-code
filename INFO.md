@@ -3,7 +3,7 @@ If you want to have
 and 
 "File Access in Client"
 
-you can use this basic polymer server gui app code template I wrote. 
+use this basic polymer server gui template I wrote. 
 
 my example consists of
 
