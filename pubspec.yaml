@@ -1,0 +1,8 @@
+name: sampleServerGui
+description: A sample command-line application
+dependencies:
+  params: 0.0.2
+  polymer: '<0.10.0'
+transformers:
+- polymer:
+    entry_points: web/app/index.html

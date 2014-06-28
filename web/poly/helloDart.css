@@ -1,0 +1,15 @@
+.label{
+  border-bottom: 1px solid #1682ba;
+  width:150px;
+  height:50px;
+  background:#1fa0e4;
+  text-shadow: rgba(0, 0, 0, 0.34902) 0px 1px 1px;
+  color:#ffffff;
+  display: table;
+}
+
+.text{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}

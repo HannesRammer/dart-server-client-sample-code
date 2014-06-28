@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<polymer-element name="custom-hello-dart">
+<link rel="stylesheet" href="../poly/helloDart.css">
+  <template>
+    <div class="label" title="transform">
+      <div class="text">{{text}} {{language}}</div>
+    </div>
+    <select on-change={{toggle}}>
+      <option>JS</option>
+      <option>Dart</option>
+    </select> 
+  </template> 
+  <script type="application/dart" src="../poly/helloDart.dart"></script>
+</polymer-element>
