@@ -5,9 +5,24 @@ and
 
 use this basic polymer server gui template I wrote.
 
+------------------------------------
+CHANGES YOU NEED TO DO BEFOR RUNNING
+------------------------------------
+
+change 
+
+'pathToChromium' to your local absolute chromium path 
+'pathToIndexHtml'  to your local absolute web/app/index.html path
+
+------------------------------------
+HOW TO RUN
+----------
+
 currently you have to run first "bin/runMe.dart" 
 and second "web/app/index.html"
  
+------------------------------------
+
 my example consists of
 
 simpleServer 
@@ -25,11 +40,7 @@ simple poly item
 -web/poly/helloDart.dart
 -web/poly/helloDart.html
 
-all you have to do to run is change 
-'pathToChromium' to your local chromium path and run 'bin/runMe.dart', 
-this will start the client 
-or 
-comment out the Process code and run it the index.html manualy 
+
 
 Enjoy
 
@@ -46,5 +57,8 @@ current issues with this example
 todo update code so its enougth to start one file eg via (pubserve.dart)
 at http://stackoverflow.com/questions/24658226/how-to-run-a-polymer-app-via-run-in-dartium-from-console
 
+------------------------------------
 changelog:
+----------
+
  updated to work with polymer >=0.12.0 <0.13.0
