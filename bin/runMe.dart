@@ -6,7 +6,7 @@ import 'package:params/server.dart';
 part 'myFunctions.dart';
 
 String pathToChromium = 'C:\\dart\\chromium\\Chrome.exe';
-String pathToIndexHtml = 'http://127.0.0.1:8080/app/index.html';
+String pathToIndexHtml = 'C:\\Projects\\Dart\\dart-server-gui-sample-code\\web\\app\\index.html';
 
 /* A simple web server that responds to **ALL** GET and **POST** requests
  * Browse to it using http://localhost:8080  
@@ -35,12 +35,12 @@ void main() {
     }, 
     onError: printError);
     print("Listening for GET and POST on http://$HOST:$PORT");
-    Process.run(pathToChromium, [pathToIndexHtml]).then((ProcessResult pr){
+    /*Process.run(pathToChromium, [pathToIndexHtml]).then((ProcessResult pr){
       print(pr.exitCode);
       print(pr.stdout);
       print("#####################");
       print(pr.stderr);
-    });
+    });*/
     
   },
   onError: printError);

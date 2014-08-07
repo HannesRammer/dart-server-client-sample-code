@@ -3,8 +3,11 @@ If you want to have
 and 
 "File Access in Client"
 
-use this basic polymer server gui template I wrote. 
+use this basic polymer server gui template I wrote.
 
+currently you have to run first "bin/runMe.dart" 
+and second "web/app/index.html"
+ 
 my example consists of
 
 simpleServer 
@@ -35,6 +38,13 @@ since Dart Editor currently doesnt provide a combined sample code for new projec
 
 Its not perfect but should help you get startet! ;)
 
+
 current issues with this example
 1.the server is still running after chromium client has been closed. (if startet via process)
 2.wont start client debugger (if started via process)
+
+todo update code so its enougth to start one file eg via (pubserve.dart)
+at http://stackoverflow.com/questions/24658226/how-to-run-a-polymer-app-via-run-in-dartium-from-console
+
+changelog:
+ updated to work with polymer >=0.12.0 <0.13.0
