@@ -1,8 +1,10 @@
 name: sampleServerGui
-description: A sample command-line application
+description: server GUI example
 dependencies:
   params: 0.0.2
   polymer: ">=0.12.0 <0.13.0"
+  route: ">=0.4.6 <0.5.0"
+  routes: ">=0.1.0 <0.2.0"
 transformers:
 - polymer:
     entry_points: web/app/index.html

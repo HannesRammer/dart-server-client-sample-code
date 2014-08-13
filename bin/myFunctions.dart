@@ -1,6 +1,6 @@
 part of sampleServerGui;
 
-helloDart(HttpResponse res){
+helloDart(Map params, HttpResponse res){
   Map map = {"language":params["language"]};
   if(params["language"] == "Dart"){
     map["text"]="Hello";

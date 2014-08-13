@@ -1,64 +1,69 @@
-If you want to have
-"Server side GUI's with Dart" 
+TEMPLATE FOR
+**Server side GUI's **
 and 
-"File Access in Client"
+**File Access in Client**
+use this basic polymer server gui template.
 
-use this basic polymer server gui template I wrote.
+since Dart Editor currently doesnt provide a combined sample code for new projects
+
+making use of using 
+[routes](https://github.com/HannesRammer/routes)
+and
+[params](https://github.com/HannesRammer/params)
 
 ------------------------------------
-CHANGES YOU NEED TO DO BEFOR RUNNING
+###CHANGES YOU NEED TO DO BEFOR RUNNING
 ------------------------------------
 
 change 
 
-'pathToChromium' to your local absolute chromium path 
-'pathToIndexHtml'  to your local absolute web/app/index.html path
+**pathToChromium** to your local absolute chromium path 
+
+**projectRootPath**  to your local absolute project root path
 
 ------------------------------------
-HOW TO RUN
+###HOW TO RUN
 ----------
 
-currently you have to run first "bin/runMe.dart" 
-and second "web/app/index.html"
+1. run "bin/runMe.dart" 
+
+2. run "web/app/index.html"
  
 ------------------------------------
 
 my example consists of
 
-simpleServer 
+**simpleServer**
 - bin/runMe.dart
 
-personal functions in a seperate file to keep the simpleServer file clean
+**personal functions** in a seperate file to keep the simpleServer file clean
 - bin/myFunctions.dart
 
-basic view
--web/app/index.dart
--web/app/index.html
+**basic view**
+- web/app/index.dart
+- web/app/index.html
 
-simple poly item
--web/poly/helloDart.css
--web/poly/helloDart.dart
--web/poly/helloDart.html
-
-
-
-Enjoy
-
-I filed a feature (request)[https://code.google.com/p/dart/issues/detail?id=19581] 
-since Dart Editor currently doesnt provide a combined sample code for new projects
+**simple poly item**
+- web/poly/helloDart.css
+- web/poly/helloDart.dart
+- web/poly/helloDart.html
 
 Its not perfect but should help you get startet! ;)
 
+-------
+##Enjoy
+-------
 
-current issues with this example
-1.the server is still running after chromium client has been closed. (if startet via process)
-2.wont start client debugger (if started via process)
-
-todo update code so its enougth to start one file eg via (pubserve.dart)
+####TODO
+update code so its enougth to start one file eg via (pubserve.dart)
 at http://stackoverflow.com/questions/24658226/how-to-run-a-polymer-app-via-run-in-dartium-from-console
+
+####PS: 
+I filed a feature [request](https://code.google.com/p/dart/issues/detail?id=19581)  
 
 ------------------------------------
 changelog:
 ----------
 
- updated to work with polymer >=0.12.0 <0.13.0
+ 13.8.2014 -updated to work with routes >=0.1.0 <0.2.0
+ 12.8.2014 -updated to work with polymer >=0.12.0 <0.13.0
